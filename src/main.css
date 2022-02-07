@@ -6,7 +6,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .display{
-    height: 100px;
+    height: 120px;
     background-color: #2d2d36;
     border-radius: 10px 10px 0px 0px;
     display: flex;
