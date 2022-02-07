@@ -37,7 +37,7 @@ body{
   grid-template-columns: auto auto auto auto;
 }
 .buttons button {
-  font-size: 20px;
+  font-size: 25px;
   color: white;
   font-weight: bold;
   padding: 25px;
