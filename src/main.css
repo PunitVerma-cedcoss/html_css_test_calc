@@ -1,3 +1,6 @@
+*{
+    transition: 0.3s all ease;
+}
 body{
     padding: 0;
     margin: 0;
@@ -39,6 +42,18 @@ body{
   font-weight: bold;
   padding: 25px;
   border: 1px double #2c2c35;
+}
+.yellow:hover{
+    cursor: pointer;
+    background-color: #e68c06;
+}
+.dark:hover{
+    cursor: pointer;
+    background-color: #33333b;
+}
+.grey:hover{
+    cursor: pointer;
+    background-color: #58585e;
 }
 .display p {
   font-size: 25px;
