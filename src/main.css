@@ -10,9 +10,15 @@
     background-color: #2d2d36;
     border-radius: 10px 10px 0px 0px;
     display: flex;
-    justify-content: end;
-    align-items: end;
+    justify-content: space-between;
+    align-items: flex-start;
 
+}
+.down{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: end;
 }
 .buttons{
     display: grid;
@@ -23,7 +29,7 @@
     color: white;
     font-weight: bold;
     padding: 25px;
-    border: 1px solid black ;
+    border: 1px solid #2c2c35 ;
 }
 .display p{
     font-size: 25px;
@@ -55,4 +61,15 @@
 }
 .bl{
     border-radius: 0px 0px 0px 10px;
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    background-color: #808085;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+.circ_container{
+    display: flex;
+    padding: 5px;
 }
